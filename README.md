@@ -78,7 +78,7 @@ db.serialize(() => {
 Currently there are not many routes in this application. There is one that demonstrates a working connection to the postgres database. So, let's add some.
 
 ## Task 1: Retrieving a module
-A route should be created that responds with a JSON object. The only parameter it should accept is an `id` for the **slide_module** to be returned. If an `id` is not passed, it should return all the **slide_modules**.
+A route should be created that responds with a JSON object. The only parameter it should accept is an `id` for the **slide_module** to be returned.
 
 The JSON object should contain the properties of the **slide_module** and a list of its **slides** with their properties.
 
